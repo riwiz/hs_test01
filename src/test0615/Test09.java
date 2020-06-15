@@ -7,6 +7,6 @@ public class Test09 {
 		
 		
 		
-		
+		System.out.println("³ë³ë");
 	}
 }
