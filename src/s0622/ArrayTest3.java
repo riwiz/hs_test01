@@ -6,10 +6,11 @@ public class ArrayTest3 {
 		
 		int[][][] nums = new int [5] [3] [5];
 		
-		for(int i =0; i<nums.length; i++) {
-			for (int j=0; j<nums[i].length; j++)	{
+		for(int i =0; i<nums.length; i++) { //길이5
+			for (int j=0; j<nums[i].length; j++)	{ //길이3
 				
-				for (int x=0; x<nums[i][j].length; x++)	{
+				for (int x=0; x<nums[i][j].length; x++)	{ //길이5
+					
 					nums [i][j][x]	= (i*nums.length*nums[i].length*nums[i][j].length)+1+j+x;
 					
 				}	
