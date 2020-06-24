@@ -13,21 +13,21 @@ public class Lotto {
 		Random r = new Random();
 		for(int i=0; i<nums.length; i++)	{
 			nums[i] = r.nextInt(6+1);
-//			for(int x=i-1;x>=0 ;x--)	{
-//				if(nums[x]==nums[i])	{
-//					i--;
-//				}
-//			}
+			for(int x=i-1;x>=0 ;x--)	{
+				if(nums[x]==nums[i])	{
+					i--;
+				}
+			}
 			
 						
 			
-			for(int x =1;x<nums.length;x++) {
-				
-			if(i<0 && nums[i-1] == nums[x] && i<nums.length)	{
-			i--;
+//			for(int x =1;x<nums.length;x++) {
+//				
+//			if(i<0 && nums[i-1] == nums[x] && i<nums.length)	{
+//			i--;
 //			nums[i] = r.nextInt(45+1); // 중복값 발생
-			}
-		}
+//			}
+//		}
 			
 			
 		}
