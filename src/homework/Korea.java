@@ -18,6 +18,7 @@ public class Korea extends Asia{
 	public int kNum;
 	
 	public void report()	{
+		super.report();
 		System.out.println("아시아 인구"+ asiaPeople+ "아시아국가수 : "+ asiaNum );
 		System.out.println("나라이름"+ kName+ "인구: "+ kNum );
 	}
