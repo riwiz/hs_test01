@@ -6,9 +6,6 @@ import java.util.Random;
 
 public class Point3 {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		List<Student> stList = new ArrayList<>();
 		Random r = new Random();
